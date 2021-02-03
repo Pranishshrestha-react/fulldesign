@@ -42,6 +42,9 @@ class NavBar extends React.Component {
                         <NavItem>
                             <Link to="/users"><NavLink>Users</NavLink></Link>
                         </NavItem>
+                        <NavItem>
+                            <Link to="/albums"><NavLink>Gallery</NavLink></Link>
+                        </NavItem>
                     </Nav>
                     <NavbarText>Logout</NavbarText>
                     </Collapse>
